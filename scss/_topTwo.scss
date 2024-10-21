@@ -1,0 +1,33 @@
+#topTwo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30pt;
+  width: inherit;
+  transition: all 0.2s ease;
+
+  #descTopTwo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40pt;
+    align-items: center;
+    transition: all 0.2s ease;
+
+    #pTitleTopTwo {
+      width: fit-content;
+      padding: 7pt 30pt;
+      background-color: #000000;
+      font-size: 16pt;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-radius: 2pt;
+      transition: all 0.2s ease;
+    }
+
+    #pDescTopTwo {
+      width: 75%;
+      font-size: 13pt;
+      line-height: 32pt;
+      transition: all 0.2s ease;
+    }
+  }
+}

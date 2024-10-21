@@ -1,0 +1,21 @@
+@import '../scss/_mediaQuery.scss';
+@import '../scss/_container.scss';
+@import '../scss/_topOne.scss';
+@import '../scss/_topTwo.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata';
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  background-color: #f7f5f2;
+  scroll-behavior: smooth;
+  transition: all 0.2s ease;
+}
