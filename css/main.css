@@ -19,9 +19,15 @@
   background-color: #000000;
   border: none;
   border-radius: 2pt;
-  transition: all 0.2s ease;
   opacity: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
   z-index: 1;
+}
+@media (max-width: 1023px) {
+  #container #backToTop {
+    cursor: unset;
+  }
 }
 #container #backToTop #arrowUp {
   background-image: url("../images/svgs/upArrow.svg");
