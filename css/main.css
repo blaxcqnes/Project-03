@@ -326,6 +326,7 @@
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 #medSec {
   display: flex;
   flex-direction: column;
@@ -352,6 +353,8 @@
   box-shadow: 0pt 0pt 2pt grey;
 }
 
+=======
+>>>>>>> be7af4ba0f14bd7883413c7b10974fbd5e17ea6d
 * {
   padding: 0;
   margin: 0;
