@@ -1,0 +1,154 @@
+#topTwo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30pt;
+  width: inherit;
+  transition: all 0.2s ease;
+
+  #descTopTwo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40pt;
+    align-items: center;
+    transition: all 0.2s ease;
+
+    #pTitleTopTwo {
+      width: fit-content;
+      padding: 7pt 30pt;
+      background-color: #000000;
+      font-size: 16pt;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-radius: 2pt;
+      transition: all 0.2s ease;
+
+      @media (max-width: 299px) {
+        width: 90%;
+        text-align: center;
+      }
+    }
+
+    #pDescTopTwo {
+      width: 40%;
+      font-size: 13pt;
+      line-height: 32pt;
+      transition: all 0.2s ease;
+
+      @media (max-width: 767px) {
+        width: 70%;
+      }
+
+      @media (max-width: 549px) {
+        width: 90%;
+      }
+
+      @media (min-width: 767px) and (max-width: 1149px) {
+        width: 55%;
+      }
+    }
+
+    #chefCommentTopTwo {
+      width: 40%;
+      padding: 12pt;
+      background-color: #f1f1f1;
+      font-size: 13pt;
+      line-height: 32pt;
+      border-left: 5px solid #cccccc;
+      transition: all 0.2s ease;
+
+      @media (max-width: 767px) {
+        width: 70%;
+      }
+
+      @media (max-width: 549px) {
+        width: 90%;
+      }
+
+      @media (min-width: 767px) and (max-width: 1149px) {
+        width: 55%;
+      }
+    }
+  }
+
+  #visualTopTwo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    row-gap: 20pt;
+    width: fit-content;
+    transition: all 0.2s ease;
+
+    @media (max-width: 359px) {
+      width: inherit;
+      align-items: center;
+    }
+
+    #picTopTwo {
+      background-image: url('../images/topTwo/topTwoOne.jpg');
+      width: 600px;
+      height: 339px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 2pt;
+      transition: all 0.2s ease;
+
+      @media (max-width: 849px) {
+        width: 550px;
+        height: 309px;
+      }
+
+      @media (max-width: 767px) {
+        width: 500px;
+        height: 282px;
+      }
+
+      @media (max-width: 679px) {
+        width: 400px;
+        height: 225px;
+      }
+
+      @media (max-width: 499px) {
+        width: 350px;
+        height: 197px;
+      }
+
+      @media (max-width: 359px) {
+        width: inherit;
+        height: 201px;
+        align-self: center;
+        border-radius: unset;
+      }
+    }
+
+    #visualDescHolder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10pt;
+      align-items: start;
+
+      @media (max-width: 359px) {
+        padding-inline: 5pt;
+      }
+
+      #openingHoursTopTwo {
+        font-size: 13pt;
+        line-height: 32pt;
+        transition: all 0.2s ease;
+
+        span {
+          font-weight: 700;
+        }
+      }
+
+      #adressTopTwo {
+        font-size: 13pt;
+        line-height: 32pt;
+        transition: all 0.2s ease;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+#topOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: inherit;
+  height: 575px;
+  transition: all 0.2s ease;
+
+  #bgTopOne {
+    background-image: url('../images/topOne/topOneOne.jpg');
+    width: inherit;
+    height: 575px;
+    position: absolute;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease;
+    filter: grayscale(40%) brightness(70%);
+    z-index: -1;
+  }
+
+  #pShopName {
+    width: fit-content;
+    align-self: center;
+    color: #ffffff;
+    font-size: 85pt;
+    transition: all 0.2s ease;
+
+    @media (max-width: 549px) {
+      font-size: 70pt;
+    }
+  }
+
+  #pOneTopOne {
+    width: fit-content;
+    padding: 7pt 12pt;
+    position: absolute;
+    bottom: 28pt;
+    left: 10pt;
+    background-color: #00000080;
+    color: #ffffff;
+    border-radius: 2pt;
+    transition: all 0.2s ease;
+
+    @media (max-width: 449px) {
+      bottom: 62pt;
+      right: 10pt;
+      left: unset;
+    }
+  }
+
+  #pTwoTopOne {
+    width: fit-content;
+    padding: 7pt 12pt;
+    position: absolute;
+    bottom: 28pt;
+    right: 10pt;
+    background-color: #00000080;
+    color: #ffffff;
+    border-radius: 2pt;
+    transition: all 0.2s ease;
+  }
+}

@@ -1,0 +1,26 @@
+#medSec {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20pt;
+  width: inherit;
+  padding: 30pt 10pt;
+  align-items: center;
+
+  #containerMidSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20pt;
+    width: 70%;
+    align-items: center;
+
+    #titlesMedSec {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      column-gap: 20pt;
+      width: 60%;
+      padding: 10pt;
+      box-shadow: 0pt 0pt 2pt grey;
+    }
+  }
+}

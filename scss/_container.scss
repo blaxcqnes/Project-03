@@ -1,0 +1,100 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 70pt;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  #backToTop {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    position: fixed;
+    bottom: 20pt;
+    right: 20pt;
+    background-color: #000000;
+    border: none;
+    border-radius: 2pt;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 1;
+
+    @media (max-width: 1023px) {
+      cursor: unset;
+    }
+
+    #arrowUp {
+      background-image: url('../images/svgs/upArrow.svg');
+      padding: 18pt 24pt;
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      transition: all 0.2s ease;
+    }
+  }
+
+  #navBar {
+    display: flex;
+    align-items: center;
+    width: inherit;
+    height: 40pt;
+    position: fixed;
+    background-color: #000000;
+    transition: all 0.2s ease;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      height: 40pt;
+    }
+
+    #navBarUl {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      column-gap: 3pt;
+      width: inherit;
+      padding-inline: 3pt;
+      transition: all 0.2s ease;
+
+      #navBarUlLi {
+        width: 70%;
+        padding: 10pt 0;
+        list-style: none;
+        font-size: 11pt;
+        text-align: center;
+        color: #cccccc;
+        text-transform: uppercase;
+        border-radius: 2pt;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        @media (max-width: 399px) {
+          padding: 10pt 0;
+          font-size: 10pt;
+          cursor: unset;
+        }
+
+        @include breakPoints(mobile) {
+          padding: 13px 0;
+          font-size: 10pt;
+          cursor: unset;
+        }
+
+        @include breakPoints(tablet) {
+          font-size: 11pt;
+          cursor: unset;
+        }
+
+        &:hover {
+          background-color: #cccccc;
+          color: black;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+  }
+}

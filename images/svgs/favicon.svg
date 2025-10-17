@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Cafe">
+  <path d="M7.053,19.8a3.02,3.02,0,0,0,3.019,3.019h6.614A3.019,3.019,0,0,0,19.7,19.8V15.875H7.053Z" fill="#cccccc" class="color000000 svgShape"></path>
+  <rect width="17.678" height="1.078" x="4.54" y="27.612" fill="#cccccc" class="color000000 svgShape"></rect>
+  <path d="M24.505,11.333H4v8.695A5.545,5.545,0,0,0,9.54,25.567h7.678a5.546,5.546,0,0,0,5.539-5.539V18.321h1.748a3.494,3.494,0,1,0,0-6.988Zm-2.826,8.695a4.466,4.466,0,0,1-4.461,4.461H9.54a4.466,4.466,0,0,1-4.461-4.461V12.411h16.6v7.617Zm2.826-2.786H22.757V12.411h1.748a2.416,2.416,0,1,1,0,4.831Z" fill="#cccccc" class="color000000 svgShape"></path>
+  <rect width="1.078" height="3.855" x="9.147" y="5.156" fill="#cccccc" class="color000000 svgShape"></rect>
+  <rect width="1.078" height="5.701" x="12.84" y="3.31" fill="#cccccc" class="color000000 svgShape"></rect>
+  <rect width="1.078" height="3.855" x="16.532" y="5.156" fill="#cccccc" class="color000000 svgShape"></rect>
+</svg>
